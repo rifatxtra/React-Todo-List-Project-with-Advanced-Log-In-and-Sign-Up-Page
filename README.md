@@ -17,6 +17,12 @@ This project was bootstrapped with [React](https://github.com/rifatxtra/react-ta
 ---
 
 ## Available Scripts
+Download Full Dictory
+Run `npm install`
+It will install all dependencies
+
+
+## Available Scripts
 
 In the project directory, you can run:
 
