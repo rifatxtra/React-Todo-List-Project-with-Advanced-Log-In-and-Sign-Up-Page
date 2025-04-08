@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate} from 'react-router-dom';
 
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [user,setUser]=useState({});
-
+    const navigate=useNavigate()
     const handleLogin = (e) => {
         e.preventDefault();
 
@@ -27,9 +28,12 @@ const Login = () => {
         }
 
         if (user) {
+            console.log(user);
             // Optional: Store session data
             localStorage.setItem('Todolist_loggedInUser', user.id);
+            console.log(localStorage.getItem(`Todolist_loggedInUser`));
             alert('Login Successful!');
+            navigate('/')
             // redirect or do something
         } else {
             alert('Invalid Email or Password');

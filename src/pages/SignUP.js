@@ -1,11 +1,13 @@
 import React,{useState} from 'react';
-
+import { useNavigate} from 'react-router-dom';
 
 const SignUP = () => {
     const [name,setName]=useState('');
     const [email,setEmail]=useState('');
     const [password,setPassword]=useState('');
     const [confirmPassword,setConfirmPassword]=useState('');
+
+    const navigate= useNavigate();
 
     const handleSubmit=(e)=>{
         e.preventDefault();
@@ -22,6 +24,7 @@ const SignUP = () => {
                 }
                 localStorage.setItem(`Todolist_user_${id}`,user);
                 alert('Sign Up Successfulll!')
+                navigate(`/log-in`)
             }
             else{
                 alert('Password Must be in 8 digit');
