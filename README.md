@@ -14,8 +14,20 @@ This is a full-featured **To-Do List web application** built with React on the f
 
 This project was bootstrapped with [React](https://github.com/rifatxtra/react-tailwind-template).
 
-Check Our Play List
-https://youtube.com/playlist?list=PLY9Q4Bh3uiPm3z8Ne30KFU19kGo_CyuQf&si=iPedKoU_O36T0BDg
+📺 Watch the Project in Action
+🔗 Full Playlist
+https://youtube.com/playlist?list=PLY9Q4Bh3uiPm3z8Ne30KFU19kGo_CyuQf
+
+✅ Individual Videos:
+
+Episode 1 – Project Intro & Setup
+https://youtu.be/DOYtArC1ti8
+
+Episode 2 – Sign Up / Log In Functionality
+https://youtu.be/zzDFbbzfmf8?si=3VhGMqclp_YZ5T-u
+
+Episode 3 – Dashboard Page with Add/Delete/Complete Features
+https://www.youtube.com/watch?v=DOYtArC1ti8
 
 
 ## Available Scripts
